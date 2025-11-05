@@ -40,7 +40,11 @@ SECRET_KEY = 'django-insecure--mj=%8cz#v$f02tbl#4b7#qy5m)2n0h=rv(nprs33z15v@3esd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://js-backend-production-4ef4.up.railway.app', # Your public Railway URL                    # Optional: allows subdomains
+    '127.0.0.1',
+
+]
 
 
 # Application definition
